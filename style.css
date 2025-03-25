@@ -1,0 +1,40 @@
+
+html, body {
+height: 100%;
+padding: 0;
+margin: 0;
+background: rgba(0, 0, 0, 0.851);
+
+}
+canvas {
+position: absolute;
+width: 100%;
+height: 100%;
+
+}
+#img{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    align-items: center; /* Align text a little down */
+    position: fixed; /* Optional: Keep it fixed like a navbar */
+    height: 50vh; /* Full height of the viewport */
+    left: 90vh;
+    top: 3vh;
+    
+            
+}
+
+#sry{
+   
+    color: antiquewhite;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align text a little down */
+    height: 80px; /* Adjust height as needed */
+    position: fixed; /* Optional: Keep it fixed like a navbar */
+    top: 20px; /* Adjust the distance from the top */
+    left: 0;
+    right: 0;
+}
+
